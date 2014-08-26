@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+if ${1:condition} then
+	${2:block}
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>if</tabTrigger>
+  <description>lua if</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.lua</scope>
+</snippet>

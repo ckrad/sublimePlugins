@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>migration</string>
+	</array>
+	<key>name</key>
+	<string>SQL (simple-db-migrate)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>SQL_UP = u?\"\"\"|SQL_DOWN = u?\"\"\"</string>
+			<key>end</key>
+			<string>\"\"\"</string>
+			<key>name</key>
+			<string>sql.simple-db-migrate</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.sql</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.simple-db-migrate</string>
+	<key>uuid</key>
+	<string>3d67aa2b-9344-4573-abc4-cdb2fd258995</string>
+</dict>
+</plist>

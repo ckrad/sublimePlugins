@@ -1,0 +1,9 @@
+<customers>
+	<customer id="A" city="New York" region="North America">
+		<order item="Widget" price="100"></order>
+		<order item="Tire" price="200"></order>
+	</customer>	
+	<customer id="B" city="Mumbai" Region="Asia">
+		<order item="Oven" price="501"></order>
+	</customer>
+</customers>

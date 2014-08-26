@@ -1,0 +1,14 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: SQL (simple-db-migrate)
+scopeName: source.simple-db-migrate
+fileTypes: [migration]
+uuid: 3d67aa2b-9344-4573-abc4-cdb2fd258995
+
+patterns:
+- name: sql.simple-db-migrate
+  begin: SQL_UP = u?\"\"\"|SQL_DOWN = u?\"\"\"
+  end: \"\"\"
+  patterns:
+  - include: source.sql
+...
